@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4Q1-J6-qlC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="En7-s2-2Fn">
+            <objects>
+                <viewController storyboardIdentifier="loginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Q1-J6-qlC" customClass="LoginViewController" customModule="FriendsLink" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hj4-DV-qAb"/>
+                        <viewControllerLayoutGuide type="bottom" id="72v-Cb-0Y0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jzJ-Ji-RMr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSS-b4-8RN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-877.5"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="Oy7-5X-PRp">
+            <objects>
+                <viewController storyboardIdentifier="mapVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yxN-m9-zxb" customClass="MapViewController" customModule="FriendsLink" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="loJ-Sz-CjQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="oCi-C2-Dm7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3a5-Ek-Eqs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WqZ-2I-QnA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WqZ-2I-QnA" secondAttribute="trailing" id="Baq-Sj-I6E"/>
+                            <constraint firstItem="WqZ-2I-QnA" firstAttribute="leading" secondItem="3a5-Ek-Eqs" secondAttribute="leading" id="PRZ-26-jnq"/>
+                            <constraint firstItem="WqZ-2I-QnA" firstAttribute="top" secondItem="loJ-Sz-CjQ" secondAttribute="bottom" id="cVU-dG-bTA"/>
+                            <constraint firstItem="oCi-C2-Dm7" firstAttribute="top" secondItem="WqZ-2I-QnA" secondAttribute="bottom" id="f7t-x9-Bgo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="WqZ-2I-QnA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="f7t-x9-Bgo"/>
+                                <exclude reference="Baq-Sj-I6E"/>
+                                <exclude reference="PRZ-26-jnq"/>
+                                <exclude reference="cVU-dG-bTA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="WqZ-2I-QnA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="f7t-x9-Bgo"/>
+                                <include reference="Baq-Sj-I6E"/>
+                                <include reference="PRZ-26-jnq"/>
+                                <include reference="cVU-dG-bTA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" id="N7q-6a-Mg4"/>
+                    <connections>
+                        <outlet property="mapView" destination="WqZ-2I-QnA" id="6HX-13-VRW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3oh-Tt-h51" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-228"/>
+        </scene>
+        <!--Friends Table View Controller-->
+        <scene sceneID="VFM-rZ-zlE">
+            <objects>
+                <tableViewController id="iyO-Tg-CUP" customClass="FriendsTableViewController" customModule="FriendsLink" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GKj-jh-rcn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="friend" id="f1g-FR-3s6">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f1g-FR-3s6" id="98w-gh-qQb">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iyO-Tg-CUP" id="V0s-jP-6ec"/>
+                            <outlet property="delegate" destination="iyO-Tg-CUP" id="iEC-7P-Nrt"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="oQC-Yl-ukg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Bxc-Ua-0VC">
+                            <connections>
+                                <action selector="addFriend:" destination="iyO-Tg-CUP" id="SmT-uE-uO5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kit-9c-1C1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1308" y="452.25"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="wKT-IJ-7cq">
+            <objects>
+                <viewController storyboardIdentifier="settingsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="72y-JF-mDO" customClass="SettingsViewController" customModule="FriendsLink" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8ne-hd-1CU"/>
+                        <viewControllerLayoutGuide type="bottom" id="8lm-JB-CfG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VCR-nf-naF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v3m-xa-tNy">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="mbK-j8-ahh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mbK-j8-ahh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="mbK-j8-ahh"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptj-HG-LAA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="59p-8W-TA2"/>
+                                </constraints>
+                                <state key="normal" title="Set Status"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="59p-8W-TA2"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="59p-8W-TA2"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="statusUpdate:" destination="72y-JF-mDO" eventType="touchUpInside" id="5Cm-lz-rPT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ptj-HG-LAA" firstAttribute="leading" secondItem="VCR-nf-naF" secondAttribute="leading" constant="80" id="FLf-gs-azh"/>
+                            <constraint firstItem="v3m-xa-tNy" firstAttribute="leading" secondItem="VCR-nf-naF" secondAttribute="leading" constant="80" id="RQo-Mr-bKv"/>
+                            <constraint firstItem="Ptj-HG-LAA" firstAttribute="top" secondItem="v3m-xa-tNy" secondAttribute="bottom" constant="8" id="dW5-Uh-ljc"/>
+                            <constraint firstAttribute="trailing" secondItem="v3m-xa-tNy" secondAttribute="trailing" constant="80" id="sTd-TQ-HKh"/>
+                            <constraint firstItem="v3m-xa-tNy" firstAttribute="top" secondItem="8ne-hd-1CU" secondAttribute="bottom" constant="57" id="sup-BR-j20"/>
+                            <constraint firstAttribute="trailing" secondItem="Ptj-HG-LAA" secondAttribute="trailing" constant="80" id="zZy-8V-cAv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="v3m-xa-tNy"/>
+                                <exclude reference="Ptj-HG-LAA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FLf-gs-azh"/>
+                                <exclude reference="dW5-Uh-ljc"/>
+                                <exclude reference="zZy-8V-cAv"/>
+                                <exclude reference="RQo-Mr-bKv"/>
+                                <exclude reference="sTd-TQ-HKh"/>
+                                <exclude reference="sup-BR-j20"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="v3m-xa-tNy"/>
+                                <include reference="Ptj-HG-LAA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FLf-gs-azh"/>
+                                <include reference="dW5-Uh-ljc"/>
+                                <include reference="zZy-8V-cAv"/>
+                                <include reference="RQo-Mr-bKv"/>
+                                <include reference="sTd-TQ-HKh"/>
+                                <include reference="sup-BR-j20"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="4Hl-pD-HDF"/>
+                    <connections>
+                        <outlet property="textView" destination="v3m-xa-tNy" id="ktK-ni-Hsp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6S-fs-HbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="1119.75"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="scf-mJ-vMQ">
+            <objects>
+                <tabBarController storyboardIdentifier="tabVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0PH-wH-6Ke" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="7An-Ag-bZd">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yxN-m9-zxb" kind="relationship" relationship="viewControllers" id="ET1-TD-hsa"/>
+                        <segue destination="PBE-Pu-9Ar" kind="relationship" relationship="viewControllers" id="0Qm-uH-4GJ"/>
+                        <segue destination="72y-JF-mDO" kind="relationship" relationship="viewControllers" id="OVt-3d-uez"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OhE-OK-c2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-402" y="312"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="c17-Z7-psm">
+            <objects>
+                <navigationController storyboardIdentifier="navVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PBE-Pu-9Ar" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friends" id="G74-Oi-mFI"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Apo-Dw-Jsc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iyO-Tg-CUP" kind="relationship" relationship="rootViewController" id="KL9-sU-9pM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqC-4h-7J5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="452.25"/>
+        </scene>
+    </scenes>
+</document>

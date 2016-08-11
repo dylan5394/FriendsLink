@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B18696360DEFFB7187C91E /* Pods_FriendsLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD221333618A9B3149297819 /* Pods_FriendsLink.framework */; };
+		610EA8EB1CC96C16007A5EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA8EA1CC96C16007A5EB1 /* AppDelegate.swift */; };
+		610EA8F01CC96C16007A5EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8EE1CC96C16007A5EB1 /* Main.storyboard */; };
+		610EA8F21CC96C16007A5EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8F11CC96C16007A5EB1 /* Assets.xcassets */; };
+		610EA8F51CC96C16007A5EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8F31CC96C16007A5EB1 /* LaunchScreen.storyboard */; };
+		610EA9001CC96C17007A5EB1 /* FriendsLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */; };
+		610EA90B1CC96C17007A5EB1 /* FriendsLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA90A1CC96C17007A5EB1 /* FriendsLinkUITests.swift */; };
+		610EA91A1CC96C31007A5EB1 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA9181CC96C31007A5EB1 /* FriendsModel.swift */; };
+		610EA91B1CC96C31007A5EB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA9191CC96C31007A5EB1 /* LoginViewController.swift */; };
+		610EA91E1CC96C45007A5EB1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA91C1CC96C45007A5EB1 /* MapViewController.swift */; };
+		610EA91F1CC96C45007A5EB1 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA91D1CC96C45007A5EB1 /* FriendsTableViewController.swift */; };
+		6127CE9B1CD00E3000CB5459 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6127CE9A1CD00E3000CB5459 /* Constants.swift */; };
+		6127CEA01CD0485700CB5459 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6127CE9F1CD0485700CB5459 /* SettingsViewController.swift */; };
+		6127CEA41CD04DAF00CB5459 /* FacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6127CEA31CD04DAF00CB5459 /* FacebookUser.swift */; };
+		612C57C21CCB19000027B0B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612C57C11CCB19000027B0B1 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610EA8FC1CC96C17007A5EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610EA8DF1CC96C16007A5EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610EA8E61CC96C16007A5EB1;
+			remoteInfo = FriendsLink;
+		};
+		610EA9071CC96C17007A5EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610EA8DF1CC96C16007A5EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610EA8E61CC96C16007A5EB1;
+			remoteInfo = FriendsLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		610EA8E71CC96C16007A5EB1 /* FriendsLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EA8EA1CC96C16007A5EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		610EA8EF1CC96C16007A5EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610EA8F11CC96C16007A5EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610EA8F41CC96C16007A5EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		610EA8F61CC96C16007A5EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610EA8FB1CC96C17007A5EB1 /* FriendsLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLinkTests.swift; sourceTree = "<group>"; };
+		610EA9011CC96C17007A5EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610EA9061CC96C17007A5EB1 /* FriendsLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EA90A1CC96C17007A5EB1 /* FriendsLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLinkUITests.swift; sourceTree = "<group>"; };
+		610EA90C1CC96C17007A5EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610EA9181CC96C31007A5EB1 /* FriendsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
+		610EA9191CC96C31007A5EB1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		610EA91C1CC96C45007A5EB1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		610EA91D1CC96C45007A5EB1 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		6127CE9A1CD00E3000CB5459 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6127CE9F1CD0485700CB5459 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6127CEA31CD04DAF00CB5459 /* FacebookUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookUser.swift; sourceTree = "<group>"; };
+		612C57C11CCB19000027B0B1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		8144C4D68F321EA4BD3295BF /* Pods-FriendsLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsLink/Pods-FriendsLink.release.xcconfig"; sourceTree = "<group>"; };
+		DD221333618A9B3149297819 /* Pods_FriendsLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA39BDA58E93588DF9F82B0 /* Pods-FriendsLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsLink/Pods-FriendsLink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610EA8E41CC96C16007A5EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B18696360DEFFB7187C91E /* Pods_FriendsLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA8F81CC96C17007A5EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA9031CC96C17007A5EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31494688B82B7DCE6B6CA18B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA39BDA58E93588DF9F82B0 /* Pods-FriendsLink.debug.xcconfig */,
+				8144C4D68F321EA4BD3295BF /* Pods-FriendsLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		610EA8DE1CC96C16007A5EB1 = {
+			isa = PBXGroup;
+			children = (
+				610EA8E91CC96C16007A5EB1 /* FriendsLink */,
+				610EA8FE1CC96C17007A5EB1 /* FriendsLinkTests */,
+				610EA9091CC96C17007A5EB1 /* FriendsLinkUITests */,
+				610EA8E81CC96C16007A5EB1 /* Products */,
+				31494688B82B7DCE6B6CA18B /* Pods */,
+				A067CB652ABE881F024007E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		610EA8E81CC96C16007A5EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610EA8E71CC96C16007A5EB1 /* FriendsLink.app */,
+				610EA8FB1CC96C17007A5EB1 /* FriendsLinkTests.xctest */,
+				610EA9061CC96C17007A5EB1 /* FriendsLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610EA8E91CC96C16007A5EB1 /* FriendsLink */ = {
+			isa = PBXGroup;
+			children = (
+				6127CE9C1CD047E000CB5459 /* Login */,
+				612C57C41CCB1AFF0027B0B1 /* Data Models */,
+				610EA9201CC96C5D007A5EB1 /* TabViews */,
+				610EA8EA1CC96C16007A5EB1 /* AppDelegate.swift */,
+				610EA8EE1CC96C16007A5EB1 /* Main.storyboard */,
+				610EA8F11CC96C16007A5EB1 /* Assets.xcassets */,
+				610EA8F31CC96C16007A5EB1 /* LaunchScreen.storyboard */,
+				610EA8F61CC96C16007A5EB1 /* Info.plist */,
+				6127CE9A1CD00E3000CB5459 /* Constants.swift */,
+			);
+			path = FriendsLink;
+			sourceTree = "<group>";
+		};
+		610EA8FE1CC96C17007A5EB1 /* FriendsLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */,
+				610EA9011CC96C17007A5EB1 /* Info.plist */,
+			);
+			path = FriendsLinkTests;
+			sourceTree = "<group>";
+		};
+		610EA9091CC96C17007A5EB1 /* FriendsLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				610EA90A1CC96C17007A5EB1 /* FriendsLinkUITests.swift */,
+				610EA90C1CC96C17007A5EB1 /* Info.plist */,
+			);
+			path = FriendsLinkUITests;
+			sourceTree = "<group>";
+		};
+		610EA9201CC96C5D007A5EB1 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				610EA91C1CC96C45007A5EB1 /* MapViewController.swift */,
+				610EA91D1CC96C45007A5EB1 /* FriendsTableViewController.swift */,
+				6127CE9F1CD0485700CB5459 /* SettingsViewController.swift */,
+			);
+			name = TabViews;
+			sourceTree = "<group>";
+		};
+		6127CE9C1CD047E000CB5459 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				610EA9191CC96C31007A5EB1 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		612C57C41CCB1AFF0027B0B1 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				612C57C11CCB19000027B0B1 /* Person.swift */,
+				6127CEA31CD04DAF00CB5459 /* FacebookUser.swift */,
+				610EA9181CC96C31007A5EB1 /* FriendsModel.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		A067CB652ABE881F024007E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD221333618A9B3149297819 /* Pods_FriendsLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610EA8E61CC96C16007A5EB1 /* FriendsLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EA90F1CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLink" */;
+			buildPhases = (
+				04EDCBD6055DB984A374CBEE /* Check Pods Manifest.lock */,
+				610EA8E31CC96C16007A5EB1 /* Sources */,
+				610EA8E41CC96C16007A5EB1 /* Frameworks */,
+				610EA8E51CC96C16007A5EB1 /* Resources */,
+				94F1C35E372E77A093D1C4E3 /* Embed Pods Frameworks */,
+				59F957262C27EA7E2C027C4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendsLink;
+			productName = FriendsLink;
+			productReference = 610EA8E71CC96C16007A5EB1 /* FriendsLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		610EA8FA1CC96C17007A5EB1 /* FriendsLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EA9121CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLinkTests" */;
+			buildPhases = (
+				610EA8F71CC96C17007A5EB1 /* Sources */,
+				610EA8F81CC96C17007A5EB1 /* Frameworks */,
+				610EA8F91CC96C17007A5EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610EA8FD1CC96C17007A5EB1 /* PBXTargetDependency */,
+			);
+			name = FriendsLinkTests;
+			productName = FriendsLinkTests;
+			productReference = 610EA8FB1CC96C17007A5EB1 /* FriendsLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		610EA9051CC96C17007A5EB1 /* FriendsLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EA9151CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLinkUITests" */;
+			buildPhases = (
+				610EA9021CC96C17007A5EB1 /* Sources */,
+				610EA9031CC96C17007A5EB1 /* Frameworks */,
+				610EA9041CC96C17007A5EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610EA9081CC96C17007A5EB1 /* PBXTargetDependency */,
+			);
+			name = FriendsLinkUITests;
+			productName = FriendsLinkUITests;
+			productReference = 610EA9061CC96C17007A5EB1 /* FriendsLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610EA8DF1CC96C16007A5EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dylan;
+				TargetAttributes = {
+					610EA8E61CC96C16007A5EB1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					610EA8FA1CC96C17007A5EB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 610EA8E61CC96C16007A5EB1;
+					};
+					610EA9051CC96C17007A5EB1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 610EA8E61CC96C16007A5EB1;
+					};
+				};
+			};
+			buildConfigurationList = 610EA8E21CC96C16007A5EB1 /* Build configuration list for PBXProject "FriendsLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610EA8DE1CC96C16007A5EB1;
+			productRefGroup = 610EA8E81CC96C16007A5EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610EA8E61CC96C16007A5EB1 /* FriendsLink */,
+				610EA8FA1CC96C17007A5EB1 /* FriendsLinkTests */,
+				610EA9051CC96C17007A5EB1 /* FriendsLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610EA8E51CC96C16007A5EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EA8F51CC96C16007A5EB1 /* LaunchScreen.storyboard in Resources */,
+				610EA8F21CC96C16007A5EB1 /* Assets.xcassets in Resources */,
+				610EA8F01CC96C16007A5EB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA8F91CC96C17007A5EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA9041CC96C17007A5EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EDCBD6055DB984A374CBEE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59F957262C27EA7E2C027C4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsLink/Pods-FriendsLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F1C35E372E77A093D1C4E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsLink/Pods-FriendsLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610EA8E31CC96C16007A5EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612C57C21CCB19000027B0B1 /* Person.swift in Sources */,
+				610EA91B1CC96C31007A5EB1 /* LoginViewController.swift in Sources */,
+				610EA8EB1CC96C16007A5EB1 /* AppDelegate.swift in Sources */,
+				610EA91A1CC96C31007A5EB1 /* FriendsModel.swift in Sources */,
+				6127CE9B1CD00E3000CB5459 /* Constants.swift in Sources */,
+				610EA91E1CC96C45007A5EB1 /* MapViewController.swift in Sources */,
+				6127CEA41CD04DAF00CB5459 /* FacebookUser.swift in Sources */,
+				610EA91F1CC96C45007A5EB1 /* FriendsTableViewController.swift in Sources */,
+				6127CEA01CD0485700CB5459 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA8F71CC96C17007A5EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EA9001CC96C17007A5EB1 /* FriendsLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EA9021CC96C17007A5EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EA90B1CC96C17007A5EB1 /* FriendsLinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610EA8FD1CC96C17007A5EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610EA8E61CC96C16007A5EB1 /* FriendsLink */;
+			targetProxy = 610EA8FC1CC96C17007A5EB1 /* PBXContainerItemProxy */;
+		};
+		610EA9081CC96C17007A5EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610EA8E61CC96C16007A5EB1 /* FriendsLink */;
+			targetProxy = 610EA9071CC96C17007A5EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		610EA8EE1CC96C16007A5EB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610EA8EF1CC96C16007A5EB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		610EA8F31CC96C16007A5EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610EA8F41CC96C16007A5EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610EA90D1CC96C17007A5EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		610EA90E1CC96C17007A5EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610EA9101CC96C17007A5EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA39BDA58E93588DF9F82B0 /* Pods-FriendsLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FriendsLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylan.davis.FriendsLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		610EA9111CC96C17007A5EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8144C4D68F321EA4BD3295BF /* Pods-FriendsLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = FriendsLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylan.davis.FriendsLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		610EA9131CC96C17007A5EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriendsLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsLink.app/FriendsLink";
+			};
+			name = Debug;
+		};
+		610EA9141CC96C17007A5EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriendsLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsLink.app/FriendsLink";
+			};
+			name = Release;
+		};
+		610EA9161CC96C17007A5EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriendsLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FriendsLink;
+			};
+			name = Debug;
+		};
+		610EA9171CC96C17007A5EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriendsLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FriendsLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610EA8E21CC96C16007A5EB1 /* Build configuration list for PBXProject "FriendsLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EA90D1CC96C17007A5EB1 /* Debug */,
+				610EA90E1CC96C17007A5EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610EA90F1CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EA9101CC96C17007A5EB1 /* Debug */,
+				610EA9111CC96C17007A5EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610EA9121CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EA9131CC96C17007A5EB1 /* Debug */,
+				610EA9141CC96C17007A5EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610EA9151CC96C17007A5EB1 /* Build configuration list for PBXNativeTarget "FriendsLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EA9161CC96C17007A5EB1 /* Debug */,
+				610EA9171CC96C17007A5EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610EA8DF1CC96C16007A5EB1 /* Project object */;
+}
