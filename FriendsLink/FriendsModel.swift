@@ -233,16 +233,24 @@ class FriendsModel: NSObject {
         }
     }
     
-    func addFriend(name: String) {
+    func addFriend(name: String) -> Bool {
         
-        let id:String = self.idDictionary![name]!
-        //Locally add the friend requests and invitations
-        self.people![self.myToken!]?.friendRequests?.append(id)
-        self.people![id]?.friendInvitations?.append(self.myToken!)
+        //Returns true if it found the friend, false otherwise.
         
-        //Add requests and invitations to firebase
-        self.myBranch?.updateChildValues([kPendingRequests:(self.people![self.myToken!]?.friendRequests)!])
-        self.db?.childByAppendingPath(id).updateChildValues([kPendingInvitations:(self.people![id]?.friendInvitations)!])
+        if let id:String = self.idDictionary![name] {
+            
+            //Locally add the friend requests and invitations
+            self.people![self.myToken!]?.friendRequests?.append(id)
+            self.people![id]?.friendInvitations?.append(self.myToken!)
+            
+            //Add requests and invitations to firebase
+            self.myBranch?.updateChildValues([kPendingRequests:(self.people![self.myToken!]?.friendRequests)!])
+            self.db?.childByAppendingPath(id).updateChildValues([kPendingInvitations:(self.people![id]?.friendInvitations)!])
+            
+            return true;
+        }
+        
+        return false;
     }
     
     func removeFriend(name: String) {

@@ -184,9 +184,12 @@ class FriendsTableViewController: UITableViewController, EVContactsPickerDelegat
         if let cons = contacts {
             for con in cons {
                 
-                self.editFacebookList(con.firstName!, remove: true)
-                self.model?.addFriend(con.firstName!)
-                print("Added: \(con.fullname())")
+                let foundUser = (self.model?.addFriend(con.firstName!))! as Bool
+                if(foundUser) {
+                    
+                    self.editFacebookList(con.firstName!, remove: true)
+                    print("Added: \(con.fullname())")
+                }
             }
         }
         self.navigationController?.popViewControllerAnimated(true)

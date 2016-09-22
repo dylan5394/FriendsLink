@@ -12,7 +12,6 @@
 		610EA8F01CC96C16007A5EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8EE1CC96C16007A5EB1 /* Main.storyboard */; };
 		610EA8F21CC96C16007A5EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8F11CC96C16007A5EB1 /* Assets.xcassets */; };
 		610EA8F51CC96C16007A5EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610EA8F31CC96C16007A5EB1 /* LaunchScreen.storyboard */; };
-		610EA9001CC96C17007A5EB1 /* FriendsLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */; };
 		610EA90B1CC96C17007A5EB1 /* FriendsLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA90A1CC96C17007A5EB1 /* FriendsLinkUITests.swift */; };
 		610EA91A1CC96C31007A5EB1 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA9181CC96C31007A5EB1 /* FriendsModel.swift */; };
 		610EA91B1CC96C31007A5EB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EA9191CC96C31007A5EB1 /* LoginViewController.swift */; };
@@ -49,7 +48,6 @@
 		610EA8F41CC96C16007A5EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		610EA8F61CC96C16007A5EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		610EA8FB1CC96C17007A5EB1 /* FriendsLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLinkTests.swift; sourceTree = "<group>"; };
 		610EA9011CC96C17007A5EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		610EA9061CC96C17007A5EB1 /* FriendsLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		610EA90A1CC96C17007A5EB1 /* FriendsLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsLinkUITests.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		610EA8FE1CC96C17007A5EB1 /* FriendsLinkTests */ = {
 			isa = PBXGroup;
 			children = (
-				610EA8FF1CC96C17007A5EB1 /* FriendsLinkTests.swift */,
 				610EA9011CC96C17007A5EB1 /* Info.plist */,
 			);
 			path = FriendsLinkTests;
@@ -265,6 +262,8 @@
 				TargetAttributes = {
 					610EA8E61CC96C16007A5EB1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7684L3883Q;
+						LastSwiftMigration = 0800;
 					};
 					610EA8FA1CC96C17007A5EB1 = {
 						CreatedOnToolsVersion = 7.3;
@@ -272,6 +271,7 @@
 					};
 					610EA9051CC96C17007A5EB1 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 610EA8E61CC96C16007A5EB1;
 					};
 				};
@@ -392,7 +392,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610EA9001CC96C17007A5EB1 /* FriendsLinkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +456,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -502,6 +502,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -528,10 +529,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7684L3883Q;
 				INFOPLIST_FILE = FriendsLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dylan.davis.FriendsLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -540,12 +543,14 @@
 			baseConfigurationReference = 8144C4D68F321EA4BD3295BF /* Pods-FriendsLink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7684L3883Q;
 				INFOPLIST_FILE = FriendsLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dylan.davis.FriendsLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -580,6 +585,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FriendsLink;
 			};
 			name = Debug;
@@ -591,6 +597,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = davis.dylan.FriendsLinkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FriendsLink;
 			};
 			name = Release;

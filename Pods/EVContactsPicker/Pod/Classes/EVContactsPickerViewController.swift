@@ -88,7 +88,7 @@ let kUnselectedCheckbox = "icon-checkbox-unselected-25x25"
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        barButton = UIBarButtonItem(title: NSBundle.evLocalizedStringForKey("Done"), style: .Done, target: self, action: Selector("done:"))
+        barButton = UIBarButtonItem(title: NSBundle.evLocalizedStringForKey("Done"), style: .Done, target: self, action: #selector(EVContactsPickerViewController.done(_:)))
         barButton?.enabled = false
         self.navigationItem.rightBarButtonItem = barButton
         
@@ -334,7 +334,7 @@ let kUnselectedCheckbox = "icon-checkbox-unselected-25x25"
         if (self.useExternal == false ) {
             cell.accessoryView = UIButton(type: .DetailDisclosure)
             let but = cell.accessoryView as! UIButton
-            but.addTarget(self, action: Selector("viewContactDetail:"), forControlEvents: UIControlEvents.TouchUpInside)
+            but.addTarget(self, action: #selector(EVContactsPickerViewController.viewContactDetail(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         } else {
             cell.accessoryType = .None
             cell.accessoryView?.hidden = true
@@ -422,7 +422,7 @@ let kUnselectedCheckbox = "icon-checkbox-unselected-25x25"
 
         dispatch_after(delayTime, dispatch_get_main_queue(), { () -> Void in
             if let del = self.delegate {
-                if(del.respondsToSelector(Selector("didChooseContacts:"))) {
+                if(del.respondsToSelector(#selector(EVContactsPickerDelegate.didChooseContacts(_:)))) {
                     if let selcontacts = self.selectedContacts {
                         del.didChooseContacts(selcontacts)
                     } else {

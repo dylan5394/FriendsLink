@@ -16,7 +16,7 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "99"
             endingLineNumber = "99"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -47,8 +47,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
             endingLineNumber = "122"
-            landmarkName = "locationManager(_:didFailWithError:)"
-            landmarkType = "5">
+            landmarkName = "locationManager(manager:didFailWithError:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "66"
             endingLineNumber = "66"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,7 +80,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "viewDidLoad()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,7 +96,7 @@
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -175,7 +175,7 @@
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "Static"
-            landmarkType = "3">
+            landmarkType = "14">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -302,7 +302,7 @@
             startingLineNumber = "98"
             endingLineNumber = "98"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -318,7 +318,7 @@
             startingLineNumber = "47"
             endingLineNumber = "47"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -334,7 +334,7 @@
             startingLineNumber = "143"
             endingLineNumber = "143"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -350,7 +350,7 @@
             startingLineNumber = "84"
             endingLineNumber = "84"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -366,7 +366,7 @@
             startingLineNumber = "83"
             endingLineNumber = "83"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -382,7 +382,7 @@
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -398,7 +398,7 @@
             startingLineNumber = "112"
             endingLineNumber = "112"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -461,8 +461,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "281"
             endingLineNumber = "281"
-            landmarkName = "acceptFriend(_:)"
-            landmarkType = "5">
+            landmarkName = "acceptFriend(name:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -477,8 +477,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "236"
             endingLineNumber = "236"
-            landmarkName = "addFriend(_:)"
-            landmarkType = "5">
+            landmarkName = "addFriend(name:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -493,40 +493,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/AppDelegate.swift"
-            timestampString = "484094855.266753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "application(_:openURL:sourceApplication:annotation:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/AppDelegate.swift"
-            timestampString = "484094855.266753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "applicationDidBecomeActive(_:)"
-            landmarkType = "5">
+            landmarkName = "application(application:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -542,7 +510,7 @@
             startingLineNumber = "34"
             endingLineNumber = "34"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -558,7 +526,7 @@
             startingLineNumber = "36"
             endingLineNumber = "36"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -637,7 +605,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "viewDidLoad()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1040,270 +1008,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "FriendsTableViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, cellForRowAtIndexPath : __ObjC.NSIndexPath) -&gt; __ObjC.UITableViewCell"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483667158.238544"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "156">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, cellForRowAtIndexPath : __ObjC.NSIndexPath) -&gt; __ObjC.UITableViewCell"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483667158.238762"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "1752">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483937306.839611"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483937306.839611"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.viewDidLoad () -&gt; ()"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483669701.465151"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "2884">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.viewDidLoad () -&gt; ()"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483669701.465322"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "8272">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483937306.839611"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483671277.527442"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483671277.527744"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "2200">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483671653.373996"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, numberOfRowsInSection : Swift.Int) -&gt; Swift.Int"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483671653.374213"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
-                  offsetFromSymbolStart = "2236">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "FriendsLink/FriendsModel.swift"
             timestampString = "483943012.506849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "238"
             endingLineNumber = "238"
-            landmarkName = "addFriend(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "5">
+            landmarkName = "addFriend(name:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1376,190 +1088,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
-            landmarkName = "lazyLoad()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "FriendsLink/FriendsModel.swift"
             timestampString = "483943012.506849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "232"
             endingLineNumber = "232"
-            landmarkName = "updateMap(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "246"
-            endingLineNumber = "246"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/AppDelegate.swift"
-            timestampString = "484094855.266753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "loadFBFriends()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/AppDelegate.swift"
-            timestampString = "484094855.266753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "loadFBFriends()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/AppDelegate.swift"
-            timestampString = "484094855.266753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "loadFBFriends()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.tableView (__ObjC.UITableView, didSelectRowAtIndexPath : __ObjC.NSIndexPath) -&gt; ()"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483935353.886603"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "221"
-                  endingLineNumber = "221"
-                  offsetFromSymbolStart = "1252">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FriendsLink.FriendsTableViewController.(tableView (__ObjC.UITableView, didSelectRowAtIndexPath : __ObjC.NSIndexPath) -&gt; ()).(closure #2)"
-                  moduleName = "FriendsLink"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dylan5394/Desktop/FriendsLink/FriendsLink/FriendsTableViewController.swift"
-                  timestampString = "483935353.886827"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "225"
-                  endingLineNumber = "225"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
+            landmarkName = "updateMap(changedUsers:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1575,23 +1111,7 @@
             startingLineNumber = "85"
             endingLineNumber = "85"
             landmarkName = "init()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1606,8 +1126,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
-            landmarkName = "updateMap(_:)"
-            landmarkType = "5">
+            landmarkName = "updateMap(notification:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1623,7 +1143,7 @@
             startingLineNumber = "92"
             endingLineNumber = "92"
             landmarkName = "paintAnnotationsForFirstTime()"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1670,8 +1190,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
             endingLineNumber = "61"
-            landmarkName = "updateMap(_:)"
-            landmarkType = "5">
+            landmarkName = "updateMap(notification:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1687,71 +1207,7 @@
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "init()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FriendsLink/FriendsTableViewController.swift"
-            timestampString = "483943465.2505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1766,8 +1222,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "275"
             endingLineNumber = "275"
-            landmarkName = "acceptFriend(_:)"
-            landmarkType = "5">
+            landmarkName = "acceptFriend(name:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1782,8 +1238,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "270"
             endingLineNumber = "270"
-            landmarkName = "acceptFriend(_:)"
-            landmarkType = "5">
+            landmarkName = "acceptFriend(name:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1799,7 +1255,7 @@
             startingLineNumber = "125"
             endingLineNumber = "125"
             landmarkName = "init()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
