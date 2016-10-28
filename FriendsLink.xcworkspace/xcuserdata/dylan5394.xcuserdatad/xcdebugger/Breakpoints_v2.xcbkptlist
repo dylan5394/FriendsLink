@@ -1222,14 +1222,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "275"
             endingLineNumber = "275"
-            landmarkName = "acceptFriend(name:)"
-            landmarkType = "7">
+            landmarkName = "FriendsModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FriendsLink/FriendsModel.swift"
@@ -1238,7 +1238,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "270"
             endingLineNumber = "270"
-            landmarkName = "acceptFriend(name:)"
+            landmarkName = "removeFriend(name:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

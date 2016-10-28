@@ -28,7 +28,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.9</string>
+	<string>2.1</string>
 	<key>FacebookAppID</key>
 	<string>1024299910996437</string>
 	<key>FacebookDisplayName</key>
@@ -42,6 +42,8 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>This app requests to access your Facebook friends.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>This app requests to use your location at all times.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
